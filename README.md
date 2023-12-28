@@ -67,6 +67,22 @@ Visit http://127.0.0.1:5173 in your browser to access the frontend.
 - Update user profile details (avatar, cover image, password, full name, email).
 
 ## Screenshots
+## Screenshots
+
+![Homepage](https://via.placeholder.com/800x600)
+*Homepage of the website*
+
+![Login Page](https://via.placeholder.com/800x600)
+*Login page of the website*
+
+![User Page](https://via.placeholder.com/800x600)
+*User page of the website*
+
+![User Account Details](https://via.placeholder.com/800x600)
+*User account details page of the website*
+
+![Edit User Account](https://via.placeholder.com/800x600)
+*Edit user account page of the website*
 
 
 
