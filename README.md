@@ -42,15 +42,23 @@ npm install
 
 ## Usage
 
-### Prerequisites
+### Running the Backend
 
-- Node.js
-- MongoDB
+1. Make sure MongoDB is running on your machine.
+ ```bash
+cd backend
+npm run dev
+```
+2. The server will run on http://localhost:8000
 
-### Installation
 
-1. Clone the repository:
+### Running the Frontend
 
 ```bash
-git clone https://github.com/itsdheerajdp/dm-gallery.git
+cd frontend
+npm run dev
+
 ```
+Visit http://127.0.0.1:5173/ in your browser to access the frontend.
+
+
