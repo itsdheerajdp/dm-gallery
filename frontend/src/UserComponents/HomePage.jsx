@@ -13,7 +13,7 @@ const HomePage = () => {
     <div className="homepage-container">
       <div className="hero-section">
         <h1 className="hero-text">Welcome to Your Creative Space</h1>
-        <p className="subtitle">Explore the joy of showcasing your memories</p>
+        <p className="subtitle">Explore the joy of showcasing your Memories</p>
       
       </div>
 
