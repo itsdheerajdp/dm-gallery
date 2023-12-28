@@ -59,6 +59,10 @@ cd frontend
 npm run dev
 
 ```
-Visit http://127.0.0.1:5173/ in your browser to access the frontend.
+Visit http://127.0.0.1:5173 in your browser to access the frontend.
 
-
+### Features
+- User signup and login.
+- Personal gallery for each user.
+- Image upload and deletion in the gallery.
+- Update user profile details (avatar, cover image, password, full name, email).
