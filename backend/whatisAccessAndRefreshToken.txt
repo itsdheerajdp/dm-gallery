@@ -1,0 +1,13 @@
+Refresh Token?
+A refresh token is a special token that is used to obtain more access tokens.
+This allows you to have short-lived access tokens without having to collect credentials every time one expires.
+
+
+Access Token ? 
+An access token is a tiny piece of code that contains a large amount of data. Information about the user, permissions, groups, and timeframes is embedded within one token that passes from a server to a user's device. 
+
+in normal language ->
+:)access token short lived hota hai
+:)ham access token ki help se login rhte hai 
+:)jab tk access token expire nahi ho jata tb tk hm end point me hit krke authorised rhte hai bar bar password nahi dalna padta
+:)agar access token invalidate ho gaya uska time expire ho gaya to refresh token ki help se hm ek naya access token generate kar skte hai so user ko dobara se login ki need nahi hogi ye tb tk ho skta hai jb tk refresh token valid hai( under expiry date)

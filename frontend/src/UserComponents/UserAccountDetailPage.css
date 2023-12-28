@@ -1,0 +1,35 @@
+
+/* .header-background{
+    position: absolute;
+    width: 100%;
+    /* height: auto; 
+    object-fit: cover;
+    z-index: -100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+.header-background{
+    margin-top: 2rem;
+    border-radius: 50%;
+    height: 80vh;
+    width: 80vw;
+    border: 3px solid black;
+}
+.profile-picture{
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    margin-top: -10rem;
+    border: 3px solid black;
+}
+.detailsofUserAccount{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(128, 0, 0);
+    width: 80%;
+    padding: 2rem;
+    border-radius: 10px;
+}

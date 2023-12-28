@@ -1,0 +1,14 @@
+.ErrorMessage {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ffefba, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorMessage h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: italic;
+}

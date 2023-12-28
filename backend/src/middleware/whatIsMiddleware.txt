@@ -1,0 +1,6 @@
+when we send any request(get,post,..) to any endpoint and wanted to send the response after some checkin (like check if you are loged in then send response , or some other types of chekin like captcha for sending response ..... etc)
+these types of checkin's in between the request and response is called the middlewares 
+
+
+what is multer??
+multer is used to save files locally in our server

@@ -1,0 +1,75 @@
+/* Example CSS for the homepage */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .homepage-container {
+    background: linear-gradient(to right, #3498db, #2ecc71); /* Gradient background */
+    color: #fff;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-text {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .benefits-section,
+  .gallery-section,
+  .testimonial-section,
+  .footer-section {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .benefit {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Add creative animations or transitions as needed */
+  

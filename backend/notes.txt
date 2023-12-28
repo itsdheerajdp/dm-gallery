@@ -1,0 +1,4 @@
+1:) we used google https://mrkandreev.name/snippets/gitignore-generator/#Node 
+to generate the .gitignore file for our project
+2:) To avoid the inconsitency in whole code and maintain the code consitency we introduce prettier module and so .prettierrc file in which we'll introduce the attributes in which we wanted to maintain consitency 
+3:) we create .prettierignore file because in some files we don't want to apply prettier configuration such as .env file, node_modules file ... etc
