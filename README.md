@@ -28,3 +28,27 @@ A brief description of this project.
 
 ```bash
 git clone https://github.com/itsdheerajdp/dm-gallery.git
+
+2. Install dependencies:
+
+```bash
+cd backend
+npm install
+
+cd ../frontend
+npm install
+
+
+## Usage
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/itsdheerajdp/dm-gallery.git
