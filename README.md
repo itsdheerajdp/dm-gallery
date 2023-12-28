@@ -13,7 +13,6 @@ A brief description of this project.
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -61,8 +60,15 @@ npm run dev
 ```
 Visit http://127.0.0.1:5173 in your browser to access the frontend.
 
-### Features
+## Features
 - User signup and login.
 - Personal gallery for each user.
 - Image upload and deletion in the gallery.
 - Update user profile details (avatar, cover image, password, full name, email).
+
+## Screenshots
+
+
+
+## Contributing
+Contributions are welcome! Fork the project, make your changes, and submit a pull request.
