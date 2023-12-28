@@ -28,6 +28,7 @@ A brief description of this project.
 
 ```bash
 git clone https://github.com/itsdheerajdp/dm-gallery.git
+```
 
 2. Install dependencies:
 
@@ -37,7 +38,7 @@ npm install
 
 cd ../frontend
 npm install
-
+```
 
 ## Usage
 
