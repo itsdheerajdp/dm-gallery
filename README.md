@@ -69,22 +69,23 @@ Visit http://127.0.0.1:5173 in your browser to access the frontend.
 
 ## Screenshots
 #### *Homepage of the website*
-![Homepage](Screenshots/AccountDetailPage1.png)
+![Homepage](Screenshots/HomePage.png)
 
 #### *Login page of the website*
-![Login Page](https://via.placeholder.com/800x600)
+![Login Page](Screenshots/LoginPage.png)
 
 #### *Signup page of the website*
-![SignUp Page](https://via.placeholder.com/800x600)
+![SignUp Page](Screenshots/SignUpPage.png)
 
 #### *User page of the website*
-![User Page](https://via.placeholder.com/800x600)
+![User Page](Screenshots/UserPage1.png)
+![User Page](Screenshots/UserPage2.png)
 
 #### *User account details page of the website*
-![User Account Details](https://via.placeholder.com/800x600)
-
+![User Account Details](Screenshots/AccountDetailPage1.png)
+![User Account Details](Screenshots/AccountDetailPage2.png)
 #### *Edit user account page of the website*
-![Edit User Account](https://via.placeholder.com/800x600)
+![Edit User Account](Screenshots/EditAccountDetailPage.png)
 
 
 
