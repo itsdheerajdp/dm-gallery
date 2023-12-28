@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
         <div className="topnav">
-    <a className="active" href="#">Home</a>
+    <a className="active" href="#">DM Gallery</a>
     <a href="/login">Login</a>
     <a href="/signup">SignUp</a>
     {/* <Button onClick={logoutHandler}>Logout</Button> */}
