@@ -1,6 +1,6 @@
 # DM Gallery
 
-A brief description of my project.
+A brief description of this project.
 
 ## Table of Contents
 
