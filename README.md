@@ -53,3 +53,4 @@ npm install
 
 ```bash
 git clone https://github.com/itsdheerajdp/dm-gallery.git
+```
