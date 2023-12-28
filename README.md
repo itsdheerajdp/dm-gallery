@@ -49,7 +49,7 @@ npm install
 cd backend
 npm run dev
 ```
-2. The server will run on http://localhost:8000
+The server will run on http://localhost:8000
 
 
 ### Running the Frontend
