@@ -69,7 +69,7 @@ Visit http://127.0.0.1:5173 in your browser to access the frontend.
 
 ## Screenshots
 #### *Homepage of the website*
-![Homepage](Screenshots/HomePage.png/800x600)
+![Homepage](https://github.com/itsdheerajdp/dm-gallery/blob/main/Screenshots/AccountDetailPage1.png)
 
 #### *Login page of the website*
 ![Login Page](https://via.placeholder.com/800x600)
