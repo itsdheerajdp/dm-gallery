@@ -70,10 +70,13 @@ return (
   <img className="profile-picture" src={userData.avatar} alt="profile-picture"/>
 </div>
 <div className="detailsofUserAccount">
-  <div style={{display:"flex" , flexDirection:"row" , margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem" ,margin:"1rem"}}>Full Name &nbsp;:</div> <div style={{fontSize:"1.5rem",margin:"1rem"}}>{userData.fullName}</div> </div>
-  <div style={{display:"flex" , flexDirection:"row" ,margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem",margin:"1rem"}}>Username &nbsp;:</div> <div style={{fontSize:"1.5rem" ,margin:"1rem"}}>{userData.username}</div> </div>
-  <div style={{display:"flex" , flexDirection:"row" , margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem" ,margin:"1rem"}}>Email &nbsp;:</div> <div style={{fontSize:"1.5rem" ,margin:"1rem"}}>{userData.email}</div> </div>
-  <Button style={{ margin:"0.5rem"}} onClick={(event)=>navigate("/users/account-detail/edit-account-detail")} positive>Edit Account Details</Button>
+  <div style={{display:"flex" , flexDirection:"row" , margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem"}}>Full Name &nbsp;:</div> <div style={{fontSize:"1.5rem"}}>&nbsp;&nbsp;{userData.fullName}</div> </div>
+  <hr />
+  <div style={{display:"flex" , flexDirection:"row" ,margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem"}}>Username &nbsp;:</div> <div style={{fontSize:"1.5rem" }}>&nbsp;&nbsp;{userData.username}</div> </div>
+  <hr />
+  <div style={{display:"flex" , flexDirection:"row" , margin:"0.5rem"}}> <div style={{fontWeight:"bold" , fontSize:"1.5rem" }}>Email &nbsp;:</div> <div style={{fontSize:"1.5rem" }}>&nbsp;&nbsp;{userData.email}</div> </div>
+  <hr />
+  <Button  onClick={(event)=>navigate("/users/account-detail/edit-account-detail")} positive>Edit Account Details</Button>
 </div>
 </div>
  

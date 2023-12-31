@@ -1,14 +1,12 @@
 .editAccountDetailsClass{
-    margin: 2rem;
-    padding: 3rem;
+    margin: 10px;
     display: flex;
-    border: 2px solid black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .editfield{
-    padding: 2rem;
+    padding: 1rem;
     border: 2px solid black;
     width: 100%;
     margin: 2px;
