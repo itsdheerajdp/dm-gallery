@@ -51,7 +51,7 @@ if (Error) {
 }
 
 return (
-  <div className='userPage' style={{backgroundImage:"linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)"}}>
+  <div className='userPage'>
     <div className="topnav">
     <a className="active" href="#">My Account</a>
     <a href="/userPage">Back</a>

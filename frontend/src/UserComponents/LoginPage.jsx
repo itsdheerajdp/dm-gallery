@@ -39,11 +39,11 @@ const submitHandler = async(event)=>{
      <Form className='loginForm'>
     <Form.Field>
       <label>Username</label>
-      <input placeholder='Username' style={{height:"3rem"}} value={username} onChange={(event)=>setusername(event.target.value)}/>
+      <input placeholder='Username' style={{height:"3rem",border:"1px solid black"}} value={username} onChange={(event)=>setusername(event.target.value)}/>
     </Form.Field>
-    <Form.Input label='Enter Password' value={password} type='password' style={{height:"3rem"}} onChange={(event)=>setpassword(event.target.value)}/>
+    <Form.Input label='Enter Password' value={password} type='password' style={{height:"3rem",border:"1px solid black",borderRadius:"6px"}} onChange={(event)=>setpassword(event.target.value)}/>
     <Button type='submit' id='loginButton' onClick={submitHandler} >Login</Button>
-    <div className='signUpDiv'>
+    <div className='signUpDiv' >
       New to Us  ? &nbsp;<a href="/signup"> SignUp</a>
     </div>
   </Form>

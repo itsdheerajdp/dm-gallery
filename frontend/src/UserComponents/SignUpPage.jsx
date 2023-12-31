@@ -74,6 +74,7 @@ const SignUpPage = () => {
         value={password}
         onChange ={(event)=>setpassword(event.target.value)}
         required={true}
+        style={{}}
       />
     <Form.Field
       id='form-input-control-error-email'
@@ -87,6 +88,7 @@ const SignUpPage = () => {
       required={true}
       value={email}
       onChange={(event)=>setemail(event.target.value)}
+
     />
 
 
