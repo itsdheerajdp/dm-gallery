@@ -23,7 +23,7 @@ const SignUpPage = () => {
       formData.append('coverImage', coverImage); // Assuming coverImage is a File object
       console.log("Requested Data:",formData)
       try{
-       const response = await axios.post("http://localhost:8000/api/v1/users/register",formData,{withCredentials:true});
+       const response = await axios.post("https://dm-gallery-backend-api.onrender.com/api/v1/users/register",formData,{withCredentials:true});
        console.log("Signed Up Successfully!!");
        console.log(response);
        setusername("");

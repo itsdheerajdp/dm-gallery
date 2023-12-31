@@ -13,7 +13,7 @@ export default function UserAccountDetailPage() {
   const [loading, setLoading] = useState(true);
   const logoutHandler = async () => {
     try {
-        const response = await axios.post('http://localhost:8000/api/v1/users/logout/',{},{withCredentials:true});
+        const response = await axios.post('https://dm-gallery-backend-api.onrender.com/api/v1/users/logout/',{},{withCredentials:true});
         console.log("Successfully Logged Out");
         navigate('/');
         console.log(response);
@@ -27,7 +27,7 @@ useEffect(() => {
     const fetchUser = async () => {
         try {
             setError(false);
-            const response = await axios.get("http://localhost:8000/api/v1/users/current-user-page",{withCredentials:true});
+            const response = await axios.get("https://dm-gallery-backend-api.onrender.com/api/v1/users/current-user-page",{withCredentials:true});
             console.log("Response:",response.data.data);
             setuserData(response.data.data);
         } catch (error) {

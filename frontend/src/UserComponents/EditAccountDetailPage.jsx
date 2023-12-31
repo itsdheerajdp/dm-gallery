@@ -21,7 +21,7 @@ export default function EditAccountDetailPage() {
         const fetchUser = async () => {
             try {
               setError(false)
-                const response = await axios.get("http://localhost:8000/api/v1/users/current-user-page",{withCredentials:true});
+                const response = await axios.get("https://dm-gallery-backend-api.onrender.com/api/v1/users/current-user-page",{withCredentials:true});
                 console.log("Response In Page:",response.data.data);
                 setuserData(response.data.data);
                 setfullname(response.data.data.fullName);
@@ -40,7 +40,7 @@ export default function EditAccountDetailPage() {
     const logoutHandler = async (event) => {
       event.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/v1/users/logout/',{},{withCredentials:true});
+            const response = await axios.post('https://dm-gallery-backend-api.onrender.com/api/v1/users/logout/',{},{withCredentials:true});
             console.log("Successfully Logged Out");
             navigate('/');
             console.log(response);
@@ -56,7 +56,7 @@ export default function EditAccountDetailPage() {
     event.preventDefault();
     try {
         setError(false)
-        const response = await axios.post(`http://localhost:8000/api/v1/users/update-account-details/${userData._id}`,{
+        const response = await axios.post(`https://dm-gallery-backend-api.onrender.com/api/v1/users/update-account-details/${userData._id}`,{
             fullName:fullname,
             email:email
         },{withCredentials:true})
@@ -77,7 +77,7 @@ try {
     setError(false)
     const formData = new FormData();
     formData.append("avatar",newavatar);
-    const response = await axios.post(`http://localhost:8000/api/v1/users/update-avatar/${userData._id}`,formData,{withCredentials:true});
+    const response = await axios.post(`https://dm-gallery-backend-api.onrender.com/api/v1/users/update-avatar/${userData._id}`,formData,{withCredentials:true});
     console.log("Response:",response);
     
     alert("Avatar Image Uploaded Successfully")
@@ -94,7 +94,7 @@ try {
       setError(false)
         const formData = new FormData();
         formData.append("coverImage",newcoverImage);
-        const response = await axios.post(`http://localhost:8000/api/v1/users/update-coverImage/${userData._id}`,formData,{withCredentials:true});
+        const response = await axios.post(`https://dm-gallery-backend-api.onrender.com/api/v1/users/update-coverImage/${userData._id}`,formData,{withCredentials:true});
         console.log("Response:",response);
         alert("Cover Image Uploaded Successfully")
         navigate('/users/account-detail');
@@ -110,7 +110,7 @@ const submitPasswordChangeHandler = async(event) =>{
 event.preventDefault();
 try {
     setError(false)
-    const response = await axios.post(`http://localhost:8000/api/v1/users/change-password/${userData._id}`,{
+    const response = await axios.post(`https://dm-gallery-backend-api.onrender.com/api/v1/users/change-password/${userData._id}`,{
         oldPassword:oldpassword,
         newPassword:newpassword
     },{withCredentials:true});

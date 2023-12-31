@@ -15,7 +15,7 @@ const UserPage = () => {
     const [Image,setImage]=useState(null);
     const logoutHandler = async () => {
       try {
-          const response = await axios.post('http://localhost:8000/api/v1/users/logout/',{},{withCredentials:true});
+          const response = await axios.post('https://dm-gallery-backend-api.onrender.com/api/v1/users/logout/',{},{withCredentials:true});
           console.log("Successfully Logged Out");
           navigate('/');
           console.log(response);
@@ -31,8 +31,8 @@ useEffect(() => {
     const fetchUser = async () => {
         try {
             setError(false);
-            const response = await axios.get("http://localhost:8000/api/v1/users/current-user-page",{withCredentials:true});
-            const galleryimages = await axios.get("http://localhost:8000/api/v1/users/get-gallery-images",{withCredentials:true});
+            const response = await axios.get("https://dm-gallery-backend-api.onrender.com/api/v1/users/current-user-page",{withCredentials:true});
+            const galleryimages = await axios.get("https://dm-gallery-backend-api.onrender.com/api/v1/users/get-gallery-images",{withCredentials:true});
             setgalleryImages(galleryimages.data.data);
             console.log("gallery Images:",galleryimages.data.data);
             console.log("Response:",response.data.data);
@@ -63,7 +63,7 @@ console.log("Description:",DescriptionOfImage);
 console.log("form Data:",formData)
 try {
   console.log("I am in try");
-  const response = await axios.post("http://localhost:8000/api/v1/users/upload-image",formData,{ 
+  const response = await axios.post("https://dm-gallery-backend-api.onrender.com/api/v1/users/upload-image",formData,{ 
     headers: {
     'Content-Type': 'multipart/form-data',
   },withCredentials:true});
@@ -84,7 +84,7 @@ const deleteImageHandler = async(event,imageId)=>{
   event.preventDefault();
   console.log("Event Target:",imageId)
  try {
-  const response = await axios.delete(`http://localhost:8000/api/v1/users/delete-image/${imageId}`);
+  const response = await axios.delete(`https://dm-gallery-backend-api.onrender.com/api/v1/users/delete-image/${imageId}`);
   console.log("Response:",response);
   window.location.reload();
  } catch (error) {
